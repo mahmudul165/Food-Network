@@ -9,15 +9,15 @@ section {
 div {
   margin: 2.1%;
 }
-div .font-image {
-  width: 600px;
-  height: 600px;
+div .first-image-bag {
+  width: 658px;
+  height: 747px;
   display: block;
   margin: auto;
   background-image: url("images/shapes/Group\ 88.png");
-  background-position: right bottom; /*Positioning*/
-  background-repeat: no-repeat; /*Prevent showing multiple background images*/
-  background-size: 300px 210px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 420px 220px;
 }
 
 .hedding-text {
@@ -32,8 +32,8 @@ h1 {
 }
 
 button {
-  width: 192px;
-  height: 68px;
+  width: 170px;
+  height: 60px;
   background-color: #fb934a;
   border-radius: 30px;
   border: 1px solid white;
