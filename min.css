@@ -28,7 +28,7 @@ h1 {
 }
 .text-content {
   margin-top: 100px;
-  padding: 30px 20px;
+  padding: 30px 10px;
 }
 
 button {
@@ -51,4 +51,19 @@ a:link {
 /* mouse over link */
 a:hover {
   color: greenyellow;
+}
+
+/* 2nd part of web */
+
+.img-bacground {
+  background-image: url("images/shapes/7.png");
+  background-position: right bottom; /*Positioning*/
+  background-repeat: no-repeat; /*Prevent showing multiple background images*/
+  background-size: contain;
+}
+.img-2 {
+  width: 40%;
+  height: 100%;
+  display: block;
+  margin: auto;
 }
