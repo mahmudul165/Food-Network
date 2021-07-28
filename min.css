@@ -1,0 +1,54 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  display: inline-flex;
+}
+div {
+  margin: 3%;
+}
+div .font-image {
+  width: 600px;
+  height: 600px;
+  display: block;
+  margin: auto;
+  background-image: url("images/shapes/Group\ 88.png");
+  background-position: right bottom; /*Positioning*/
+  background-repeat: no-repeat; /*Prevent showing multiple background images*/
+  background-size: 300px 210px;
+}
+
+.hedding-text {
+  color: #fb934a;
+}
+h1 {
+  font-size: 50px;
+}
+.text-content {
+  margin-top: 100px;
+  padding: 30px 20px;
+}
+
+button {
+  width: 192px;
+  height: 68px;
+  background-color: #fb934a;
+  border-radius: 30px;
+  border: 1px solid white;
+  margin: 50px 0px;
+}
+button a {
+  color: white;
+}
+a:link {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: greenyellow;
+}
