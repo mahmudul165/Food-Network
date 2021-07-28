@@ -7,7 +7,7 @@ section {
   display: inline-flex;
 }
 div {
-  margin: 3%;
+  margin: 2.1%;
 }
 div .font-image {
   width: 600px;
@@ -57,7 +57,6 @@ a:hover {
 
 .img-bacground {
   background-image: url("images/shapes/7.png");
-  background-position: right bottom; /*Positioning*/
   background-repeat: no-repeat; /*Prevent showing multiple background images*/
   background-size: contain;
 }
@@ -66,4 +65,20 @@ a:hover {
   height: 100%;
   display: block;
   margin: auto;
+}
+.css-box {
+  margin: 10px;
+  padding: 5px;
+  display: inline-flex;
+}
+.img_box_model {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  text-align: center;
+}
+.box-model-container {
+  background-color: whitesmoke;
+  padding: 35px;
+  border-radius: 25px;
 }
